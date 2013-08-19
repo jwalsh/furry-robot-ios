@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *fullUrl = @"http://m.wal.sh/";
+    NSURL *url = [NSURL URLWithString:fullUrl];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_viewWeb loadRequest:requestObj];
 }
 
 - (void)didReceiveMemoryWarning
