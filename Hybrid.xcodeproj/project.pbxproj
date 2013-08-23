@@ -24,6 +24,8 @@
 		61668A5F17C2CA9C00C9BF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61668A3717C2CA9C00C9BF4A /* Foundation.framework */; };
 		61668A6717C2CA9C00C9BF4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61668A6517C2CA9C00C9BF4A /* InfoPlist.strings */; };
 		61668A6A17C2CA9C00C9BF4A /* HybridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61668A6917C2CA9C00C9BF4A /* HybridTests.m */; };
+		61E0597017C3F91F00282C16 /* logo-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E0596F17C3F91F00282C16 /* logo-57x57.png */; };
+		61E0597217C3F95A00282C16 /* logo-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E0597117C3F95A00282C16 /* logo-150x150.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		61668A6617C2CA9C00C9BF4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61668A6817C2CA9C00C9BF4A /* HybridTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HybridTests.h; sourceTree = "<group>"; };
 		61668A6917C2CA9C00C9BF4A /* HybridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridTests.m; sourceTree = "<group>"; };
+		61E0596F17C3F91F00282C16 /* logo-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-57x57.png"; sourceTree = "<group>"; };
+		61E0597117C3F95A00282C16 /* logo-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-150x150.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		61668A2917C2CA9C00C9BF4A = {
 			isa = PBXGroup;
 			children = (
+				61E0597117C3F95A00282C16 /* logo-150x150.png */,
+				61E0596F17C3F91F00282C16 /* logo-57x57.png */,
 				61668A3B17C2CA9C00C9BF4A /* Hybrid */,
 				61668A6217C2CA9C00C9BF4A /* HybridTests */,
 				61668A3417C2CA9C00C9BF4A /* Frameworks */,
@@ -240,6 +246,8 @@
 				61668A4C17C2CA9C00C9BF4A /* Default-568h@2x.png in Resources */,
 				61668A4F17C2CA9C00C9BF4A /* MainStoryboard_iPhone.storyboard in Resources */,
 				61668A5217C2CA9C00C9BF4A /* MainStoryboard_iPad.storyboard in Resources */,
+				61E0597017C3F91F00282C16 /* logo-57x57.png in Resources */,
+				61E0597217C3F95A00282C16 /* logo-150x150.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +475,7 @@
 				61668A6F17C2CA9C00C9BF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61668A7017C2CA9C00C9BF4A /* Build configuration list for PBXNativeTarget "HybridTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +484,7 @@
 				61668A7217C2CA9C00C9BF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
